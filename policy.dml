@@ -1,0 +1,8 @@
+record
+  decimal(",") policy_number;
+  decimal(",") coverage_amount;
+  decimal(",") deductible;
+  decimal(",") premium_amount;
+  decimal(",") policy_term;
+  string("\n") newline = NULL;
+end
